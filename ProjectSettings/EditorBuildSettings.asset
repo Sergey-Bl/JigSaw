@@ -10,5 +10,32 @@ EditorBuildSettings:
     guid: 6edbe74601f5c4c3a9cadfecea77d9d8
   - enabled: 1
     path: Assets/Scenes/JigsawGame.unity
+    guid: e43ec2ff95d9848248ecba6858a2e1fa
+  - enabled: 1
+    path: Assets/Scenes/Level2.unity
+    guid: 2a486c4c9be7a4b0889b75a5cc743fcd
+  - enabled: 1
+    path: Assets/Scenes/Level3.unity
+    guid: cae769c5c7c8f4bd9a1139364cdd01cd
+  - enabled: 1
+    path: Assets/Scenes/Level4.unity
     guid: 53e609bdc4d6c7945934a8c8694c3e26
+  - enabled: 1
+    path: Assets/Scenes/Level5.unity
+    guid: 8b93edb23d40247a0baf81c5e27e2357
+  - enabled: 1
+    path: Assets/Scenes/Level6.unity
+    guid: f565fc14e87c14dceb867495de129ac3
+  - enabled: 1
+    path: Assets/Scenes/Level7.unity
+    guid: 24c531262489f43c0ab243c561d79952
+  - enabled: 1
+    path: Assets/Scenes/Level8.unity
+    guid: d76b5fd1783224af196101e994997e8e
+  - enabled: 1
+    path: Assets/Scenes/Level9.unity
+    guid: f83ddd1522b6e446bb29163e2f1d2414
+  - enabled: 1
+    path: Assets/Scenes/Level10.unity
+    guid: 7de5d7919effb4a16a0df210e412ad44
   m_configObjects: {}

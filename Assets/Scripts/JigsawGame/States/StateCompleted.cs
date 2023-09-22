@@ -2,10 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Patterns;
+using UnityEngine.UIElements;
 
 // The Loading Playing.
 public class StateCompleted : State<JigsawGameStates>
 {
+    
     public JigsawGame Game { get; set; }
     public StateCompleted(JigsawGame game) : 
         base(JigsawGameStates.COMPLETED)
@@ -17,6 +19,7 @@ public class StateCompleted : State<JigsawGameStates>
     {
         base.Enter();
         Game.menu.TextWin.gameObject.SetActive(true);
-        Game.menu.SetActivePlayBtn(true);
+        // Game.menu.SetActivePlayBtn(true);
+        Game.menu.NextLevel.SetActive(true);
     }
 }

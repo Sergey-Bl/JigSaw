@@ -7,6 +7,8 @@ using UnityEngine.SceneManagement;
 public class JigsawGame : BoardGen
 {
     public Menu menu;
+    [SerializeField]
+    private GameObject shit;
 
     [Tooltip("Set the regions where the tiles should be scrambled to")]
     public List<Rect> Regions = new List<Rect>();
@@ -26,7 +28,7 @@ public class JigsawGame : BoardGen
         Fsm.SetCurrentState(JigsawGameStates.LOADING);
 
         menu.OnClickPlay += OnClickBtnScramble;
-        menu.OnClickNext += OnClickNextGame;
+        // menu.OnClickNext += OnClickNextGame;
     }
 
     void Update()
@@ -133,6 +135,11 @@ public class JigsawGame : BoardGen
         }
         //mTextInPlaceTiles.text = mTotalTilesInCorrectPosition.ToString();
         menu.SetTilesInPlace(JigsawGameData.Instance.mTotalTilesInCorrectPosition);
+    }
+
+    public void DestroyShit()
+    {
+        Destroy(shit);
     }
     #endregion
 

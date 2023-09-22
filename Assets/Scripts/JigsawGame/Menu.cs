@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class Menu : MonoBehaviour
 {
+    public GameObject NextLevel;
+    
     public Button BtnHome;
     public FixedButton BtnZoomIn;
     public Button BtnReset;
@@ -102,7 +104,7 @@ public class Menu : MonoBehaviour
     public void SetActivePlayBtn(bool flag)
     {
         BtnPlay.gameObject.SetActive(flag);
-        BtnNext.gameObject.SetActive(flag);
+        // BtnNext.gameObject.SetActive(flag);
 
         BtnZoomIn.gameObject.SetActive(!flag);
         BtnReset.gameObject.SetActive(!flag);

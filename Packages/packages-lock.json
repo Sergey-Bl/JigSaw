@@ -169,6 +169,13 @@
         "com.unity.modules.imgui": "1.0.0"
       }
     },
+    "com.yasirkula.simplegdprconsent": {
+      "version": "git@github.com:yasirkula/UnitySimpleGDPRConsent.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "8069051da7e459b79b1bae69e5f7b6e19e7d9ed9"
+    },
     "com.unity.modules.ai": {
       "version": "1.0.0",
       "depth": 0,
